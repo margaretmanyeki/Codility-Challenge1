@@ -19,7 +19,7 @@ var toy = function(a,b){
         default   : return a + "is equal to" +b;
     };
 };
-console.log(4)
+console.log(toy(2,4));
 
 
 
