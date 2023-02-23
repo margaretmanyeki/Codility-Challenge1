@@ -30,4 +30,9 @@ function countOccurrences (array,x){
    if(array[i]==x)
     count ++;
      return count;
-};
+}
+let array = [ 1, 2, 2, 2, 2, 3, 4, 7, 8, 8 ];
+    let x = 2;
+
+console.log(x + " occurs "+ countOccurrences(array, x)+ " times");
+ 
